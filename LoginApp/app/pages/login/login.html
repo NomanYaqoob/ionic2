@@ -1,0 +1,26 @@
+
+<ion-content class="login">
+    <ion-grid>
+        <ion-row>
+            <ion-col offset-20>
+                <img src="img/logo.png" class="logoImg" alt="">
+                <h3>Welcome To Egypt</h3>
+            </ion-col>
+        </ion-row>
+    </ion-grid>
+    <ion-list>
+        <ion-item class="login_input">
+            <ion-label fixed class="color_black">Username</ion-label>
+            <ion-input type="text" value=""></ion-input>
+        </ion-item>
+
+        <ion-item class="login_input">
+            <ion-label fixed class="color_black">Password</ion-label>
+            <ion-input type="password"></ion-input>
+        </ion-item>
+
+    </ion-list>
+    <button block secondary (click)="login()">Login</button>
+    <button block secondary>Sign up</button>
+
+</ion-content>
